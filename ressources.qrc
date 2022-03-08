@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="imgs">
+    <file>Static/unnamed.png</file>
+    <file>Static/fleche.png</file>
+  </qresource>
+</RCC>
