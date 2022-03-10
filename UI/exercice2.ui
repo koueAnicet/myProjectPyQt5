@@ -59,7 +59,7 @@ background-image: url(:/images/image1/screen.png);</string>
       <string extracomment="Welcome to Sketch"/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../Static/ressources.qrc">:/img2/images-removebg-preview.png</pixmap>
+      <pixmap resource="../ressources.qrc">:/img2/Static/images-removebg-preview.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -127,12 +127,12 @@ QPushButton:hover{
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="../Static/ressources.qrc">
-        <normaloff>:/img2/images.png</normaloff>:/img2/images.png</iconset>
+       <iconset resource="../ressources.qrc">
+        <normaloff>:/img2/Static/images.png</normaloff>:/img2/Static/images.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>120</width>
+        <width>134</width>
         <height>120</height>
        </size>
       </property>
@@ -175,12 +175,12 @@ QPushButton:hover{
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="../Static/ressources.qrc">
-        <normaloff>:/img2/images_android-removebg-preview.png</normaloff>:/img2/images_android-removebg-preview.png</iconset>
+       <iconset resource="../ressources.qrc">
+        <normaloff>:/img2/Static/images_android-removebg-preview.png</normaloff>:/img2/Static/images_android-removebg-preview.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>80</width>
+        <width>82</width>
         <height>90</height>
        </size>
       </property>
@@ -220,8 +220,8 @@ QPushButton:hover{
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="../Static/ressources.qrc">
-        <normaloff>:/img2/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png</normaloff>:/img2/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png</iconset>
+       <iconset resource="../ressources.qrc">
+        <normaloff>:/img2/Static/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png</normaloff>:/img2/Static/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -265,12 +265,12 @@ QPushButton:hover{
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="../Static/ressources.qrc">
-        <normaloff>:/img2/layers-icon-13-removebg-preview.png</normaloff>:/img2/layers-icon-13-removebg-preview.png</iconset>
+       <iconset resource="../ressources.qrc">
+        <normaloff>:/img2/Static/layers-icon-13-removebg-preview.png</normaloff>:/img2/Static/layers-icon-13-removebg-preview.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>80</width>
+        <width>92</width>
         <height>100</height>
        </size>
       </property>
@@ -310,12 +310,12 @@ QPushButton:hover{
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="../Static/ressources.qrc">
-        <normaloff>:/img2/web-design-icon.png</normaloff>:/img2/web-design-icon.png</iconset>
+       <iconset resource="../ressources.qrc">
+        <normaloff>:/img2/Static/web-design-icon.png</normaloff>:/img2/Static/web-design-icon.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>90</width>
+        <width>100</width>
         <height>90</height>
        </size>
       </property>
@@ -333,6 +333,72 @@ QPushButton:hover{
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Web Design&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
+     <widget class="QDialogButtonBox" name="buttonBox">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>680</y>
+        <width>156</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="centerButtons">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>690</y>
+        <width>81</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background:blue;
+color:white;
+font:14px bold white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Choose</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>690</y>
+        <width>81</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background:white;
+color:black;
+font:14px bold black;
+}</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>690</y>
+        <width>201</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Open an existing file... </string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
@@ -344,7 +410,7 @@ QPushButton:hover{
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../Static/ressources.qrc"/>
+  <include location="../ressources.qrc"/>
  </resources>
  <connections/>
 </ui>

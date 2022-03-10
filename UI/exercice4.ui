@@ -136,7 +136,7 @@ QPushButton:hover{
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>40</x>
       <y>110</y>
       <width>141</width>
       <height>181</height>
@@ -153,8 +153,8 @@ QPushButton:hover{
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="../Static/source.qrc">
-      <normaloff>:/img4/shortcuts-2018-10-03.png</normaloff>:/img4/shortcuts-2018-10-03.png</iconset>
+     <iconset resource="../ressources.qrc">
+      <normaloff>:/img4/Static/shortcuts-2018-10-03.png</normaloff>:/img4/Static/shortcuts-2018-10-03.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -189,8 +189,8 @@ QPushButton:hover{
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="../Static/source.qrc">
-      <normaloff>:/img4/ojo.png</normaloff>:/img4/ojo.png</iconset>
+     <iconset resource="../ressources.qrc">
+      <normaloff>:/img4/Static/ojo.png</normaloff>:/img4/Static/ojo.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -219,8 +219,8 @@ QPushButton:hover{
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="../Static/source.qrc">
-      <normaloff>:/img4/fnJon5rf-removebg-preview.png</normaloff>:/img4/fnJon5rf-removebg-preview.png</iconset>
+     <iconset resource="../ressources.qrc">
+      <normaloff>:/img4/Static/fnJon5rf-removebg-preview.png</normaloff>:/img4/Static/fnJon5rf-removebg-preview.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -249,8 +249,8 @@ QPushButton:hover{
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="../Static/source.qrc">
-      <normaloff>:/img4/833453.png</normaloff>:/img4/833453.png</iconset>
+     <iconset resource="../ressources.qrc">
+      <normaloff>:/img4/Static/833453.png</normaloff>:/img4/Static/833453.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -263,9 +263,9 @@ QPushButton:hover{
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>460</y>
-      <width>231</width>
-      <height>131</height>
+      <y>440</y>
+      <width>321</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -286,28 +286,85 @@ border:1px solid }</string>
        <x>10</x>
        <y>10</y>
        <width>61</width>
-       <height>51</height>
+       <height>71</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
 	background-color:#6279b5;
 	border:1px solid black;
-	border-raduis:12px;
+	border-raduis:13px;
 }</string>
      </property>
      <property name="text">
       <string/>
      </property>
      <property name="icon">
-      <iconset resource="../Static/source.qrc">
-       <normaloff>:/img4/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</normaloff>:/img4/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</iconset>
+      <iconset resource="../ressources.qrc">
+       <normaloff>:/img4/Static/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</normaloff>:/img4/Static/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</iconset>
      </property>
      <property name="iconSize">
       <size>
        <width>60</width>
        <height>70</height>
       </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>10</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	border:1px solid white;
+
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Why Many WEbsites&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Do Not Survive.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Outcharge -36min&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_13">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>130</y>
+       <width>51</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color:white;
+	border:none;
+}</string>
+     </property>
+     <property name="text">
+      <string>12:42</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_14">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>130</y>
+       <width>51</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color:white;
+	border:none;
+}</string>
+     </property>
+     <property name="text">
+      <string>-23:18</string>
      </property>
     </widget>
    </widget>
@@ -383,48 +440,29 @@ border:1px solid }</string>
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Motivation&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>460</y>
-      <width>161</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel{
-	border:1px solid black;
-
-}</string>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
       <x>110</x>
       <y>530</y>
       <width>161</width>
-      <height>61</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QFrame{
-border:1px solid black;
+border:1px solid white;
 }</string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Brandinf For Business.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;How To Make Your.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Outcharge -35min&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>410</y>
+      <x>30</x>
+      <y>390</y>
       <width>61</width>
       <height>31</height>
      </rect>
@@ -443,7 +481,7 @@ border:1px solid black;
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>400</y>
+      <y>380</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -479,8 +517,8 @@ border:1px solid black;
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="../Static/source.qrc">
-      <normaloff>:/img4/117-1172644_category-comments-four-square-icon-png-clipart-removebg-preview.png</normaloff>:/img4/117-1172644_category-comments-four-square-icon-png-clipart-removebg-preview.png</iconset>
+     <iconset resource="../ressources.qrc">
+      <normaloff>:/img4/Static/117-1172644_category-comments-four-square-icon-png-clipart-removebg-preview.png</normaloff>:/img4/Static/117-1172644_category-comments-four-square-icon-png-clipart-removebg-preview.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -492,14 +530,15 @@ border:1px solid black;
    <widget class="QPushButton" name="pushButton_10">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>460</y>
-      <width>61</width>
-      <height>51</height>
+      <x>30</x>
+      <y>440</y>
+      <width>71</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton{
+     <string notr="true">
+QPushButton{
 	background-color:#6279b5;
 	border:1px solid black;
 	border-raduis:12px;
@@ -509,23 +548,26 @@ border:1px solid black;
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="../Static/source.qrc">
-      <normaloff>:/img4/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</normaloff>:/img4/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</iconset>
+     <iconset resource="../ressources.qrc">
+      <normaloff>:/img4/Static/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</normaloff>:/img4/Static/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</iconset>
     </property>
     <property name="iconSize">
      <size>
-      <width>60</width>
-      <height>70</height>
+      <width>69</width>
+      <height>69</height>
      </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_11">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>30</x>
       <y>530</y>
-      <width>61</width>
-      <height>51</height>
+      <width>71</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -539,21 +581,39 @@ border:1px solid black;
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="../Static/source.qrc">
-      <normaloff>:/img4/110254-orange-wave-free-download-png-hd.png</normaloff>:/img4/110254-orange-wave-free-download-png-hd.png</iconset>
+     <iconset resource="../ressources.qrc">
+      <normaloff>:/img4/Static/110254-orange-wave-free-download-png-hd.png</normaloff>:/img4/Static/110254-orange-wave-free-download-png-hd.png</iconset>
     </property>
     <property name="iconSize">
      <size>
-      <width>60</width>
+      <width>67</width>
       <height>70</height>
      </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>440</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	border:1px solid white;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Why Many WEbsites&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Do Not Survive.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Outcharge -36min&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
  </widget>
  <resources>
-  <include location="../Static/source.qrc"/>
-  <include location="../Static/ressource4.qrc"/>
+  <include location="../ressources.qrc"/>
  </resources>
  <connections/>
 </ui>

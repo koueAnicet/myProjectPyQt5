@@ -185,11 +185,14 @@ QPushButton:hover{
        <height>431</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
      <property name="text">
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../ressources.qrc">:/imgs/Static/unnamed.png</pixmap>
+      <pixmap>:/imgs/Static/unnamed.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -222,7 +225,7 @@ QPushButton:hover{
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../ressources.qrc">:/imgs/Static/fleche.png</pixmap>
+     <pixmap>:/imgs/Static/fleche.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

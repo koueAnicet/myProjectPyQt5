@@ -31,7 +31,7 @@ class Ui_MainWindow(object):
         self.label.setStyleSheet("background:#141C3C;\n"
 "background-image: url(:/images/image1/screen.png);")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("UI/../Static/images-removebg-preview.png"))
+        self.label.setPixmap(QtGui.QPixmap(":/img2/Static/images-removebg-preview.png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.frame)
@@ -40,105 +40,156 @@ class Ui_MainWindow(object):
 "\n"
 "")
         self.label_2.setObjectName("label_2")
-        self.frame_2 = QtWidgets.QFrame(self.centralwidget)
-        self.frame_2.setGeometry(QtCore.QRect(340, 0, 651, 761))
-        self.frame_2.setStyleSheet("background-color:#FFFFFF;")
-        self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
-        self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frame_2.setObjectName("frame_2")
-        self.btnAnnuler = QtWidgets.QDialogButtonBox(self.frame_2)
-        self.btnAnnuler.setGeometry(QtCore.QRect(450, 720, 171, 31))
-        font = QtGui.QFont()
-        font.setFamily(".AppleSystemUIFont")
-        font.setPointSize(14)
-        font.setBold(False)
-        font.setItalic(False)
-        font.setWeight(50)
-        self.btnAnnuler.setFont(font)
-        self.btnAnnuler.setStyleSheet("font: 14pt \".AppleSystemUIFont\";")
-        self.btnAnnuler.setOrientation(QtCore.Qt.Horizontal)
-        self.btnAnnuler.setStandardButtons(QtWidgets.QDialogButtonBox.Cancel|QtWidgets.QDialogButtonBox.Ok)
-        self.btnAnnuler.setCenterButtons(True)
-        self.btnAnnuler.setObjectName("btnAnnuler")
-        self.tabWidget = QtWidgets.QTabWidget(self.frame_2)
-        self.tabWidget.setGeometry(QtCore.QRect(30, 0, 161, 21))
-        self.tabWidget.setStyleSheet("color:black;")
-        self.tabWidget.setTabPosition(QtWidgets.QTabWidget.North)
+        self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
+        self.tabWidget.setGeometry(QtCore.QRect(340, 0, 661, 751))
+        self.tabWidget.setStyleSheet("QTabWidget{\n"
+"background-color:wihite;\n"
+"}")
         self.tabWidget.setObjectName("tabWidget")
-        self.elments1 = QtWidgets.QWidget()
-        self.elments1.setObjectName("elments1")
-        self.tabWidget.addTab(self.elments1, "")
-        self.Templates2 = QtWidgets.QWidget()
-        self.Templates2.setObjectName("Templates2")
-        self.tabWidget.addTab(self.Templates2, "")
-        self.label_6 = QtWidgets.QLabel(self.frame_2)
-        self.label_6.setGeometry(QtCore.QRect(30, 240, 131, 21))
-        self.label_6.setScaledContents(False)
-        self.label_6.setObjectName("label_6")
-        self.label_7 = QtWidgets.QLabel(self.frame_2)
-        self.label_7.setGeometry(QtCore.QRect(220, 240, 141, 20))
-        self.label_7.setObjectName("label_7")
-        self.pushButton = QtWidgets.QPushButton(self.frame_2)
-        self.pushButton.setGeometry(QtCore.QRect(30, 90, 131, 121))
+        self.tab_1 = QtWidgets.QWidget()
+        self.tab_1.setObjectName("tab_1")
+        self.pushButton = QtWidgets.QPushButton(self.tab_1)
+        self.pushButton.setGeometry(QtCore.QRect(20, 30, 131, 131))
+        self.pushButton.setStyleSheet("QPushButton{\n"
+"    border:1px solid #c7ccd4;\n"
+"}\n"
+"QPushButton:hover{\n"
+"    border:2px solid lightblue;\n"
+"}\n"
+"")
         self.pushButton.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("UI/../Static/images__2_-removebg-preview.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/img2/Static/images.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton.setIcon(icon)
-        self.pushButton.setIconSize(QtCore.QSize(150, 150))
+        self.pushButton.setIconSize(QtCore.QSize(134, 120))
         self.pushButton.setObjectName("pushButton")
-        self.pushButton_2 = QtWidgets.QPushButton(self.frame_2)
-        self.pushButton_2.setGeometry(QtCore.QRect(220, 80, 131, 141))
+        self.label_6 = QtWidgets.QLabel(self.tab_1)
+        self.label_6.setGeometry(QtCore.QRect(20, 180, 131, 21))
+        self.label_6.setScaledContents(False)
+        self.label_6.setObjectName("label_6")
+        self.pushButton_2 = QtWidgets.QPushButton(self.tab_1)
+        self.pushButton_2.setGeometry(QtCore.QRect(210, 20, 131, 141))
+        self.pushButton_2.setStyleSheet("QPushButton{\n"
+"    border:1px solid #c7ccd4;\n"
+"}\n"
+"QPushButton:hover{\n"
+"    border:2px solid lightblue;\n"
+"}\n"
+"")
         self.pushButton_2.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("UI/../Static/images_android-removebg-preview.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap(":/img2/Static/images_android-removebg-preview.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_2.setIcon(icon1)
-        self.pushButton_2.setIconSize(QtCore.QSize(80, 90))
+        self.pushButton_2.setIconSize(QtCore.QSize(82, 90))
         self.pushButton_2.setObjectName("pushButton_2")
-        self.pushButton_3 = QtWidgets.QPushButton(self.frame_2)
-        self.pushButton_3.setGeometry(QtCore.QRect(430, 85, 111, 131))
+        self.label_7 = QtWidgets.QLabel(self.tab_1)
+        self.label_7.setGeometry(QtCore.QRect(210, 190, 141, 20))
+        self.label_7.setObjectName("label_7")
+        self.pushButton_3 = QtWidgets.QPushButton(self.tab_1)
+        self.pushButton_3.setGeometry(QtCore.QRect(410, 20, 141, 141))
+        self.pushButton_3.setStyleSheet("QPushButton{\n"
+"    border:1px solid #c7ccd4;\n"
+"}\n"
+"QPushButton:hover{\n"
+"    border:2px solid lightblue;\n"
+"}\n"
+"")
         self.pushButton_3.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("UI/../Static/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap(":/img2/Static/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_3.setIcon(icon2)
         self.pushButton_3.setIconSize(QtCore.QSize(100, 300))
         self.pushButton_3.setObjectName("pushButton_3")
-        self.label_3 = QtWidgets.QLabel(self.frame_2)
-        self.label_3.setGeometry(QtCore.QRect(430, 240, 91, 20))
+        self.label_3 = QtWidgets.QLabel(self.tab_1)
+        self.label_3.setGeometry(QtCore.QRect(430, 190, 91, 20))
         self.label_3.setObjectName("label_3")
-        self.pushButton_4 = QtWidgets.QPushButton(self.frame_2)
-        self.pushButton_4.setGeometry(QtCore.QRect(40, 325, 121, 111))
+        self.pushButton_4 = QtWidgets.QPushButton(self.tab_1)
+        self.pushButton_4.setGeometry(QtCore.QRect(20, 280, 121, 121))
+        self.pushButton_4.setStyleSheet("QPushButton{\n"
+"    border:1px solid #c7ccd4;\n"
+"}\n"
+"QPushButton:hover{\n"
+"    border:2px solid lightblue;\n"
+"}\n"
+"")
         self.pushButton_4.setText("")
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap(":/img2/Static/layers-icon-13-removebg-preview.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_4.setIcon(icon3)
+        self.pushButton_4.setIconSize(QtCore.QSize(92, 100))
         self.pushButton_4.setObjectName("pushButton_4")
-        self.pushButton_5 = QtWidgets.QPushButton(self.frame_2)
-        self.pushButton_5.setGeometry(QtCore.QRect(210, 320, 141, 111))
-        self.pushButton_5.setText("")
-        self.pushButton_5.setObjectName("pushButton_5")
-        self.label_4 = QtWidgets.QLabel(self.frame_2)
-        self.label_4.setGeometry(QtCore.QRect(50, 450, 111, 20))
+        self.label_4 = QtWidgets.QLabel(self.tab_1)
+        self.label_4.setGeometry(QtCore.QRect(30, 430, 111, 20))
         self.label_4.setObjectName("label_4")
-        self.label_5 = QtWidgets.QLabel(self.frame_2)
-        self.label_5.setGeometry(QtCore.QRect(229, 460, 111, 20))
+        self.pushButton_5 = QtWidgets.QPushButton(self.tab_1)
+        self.pushButton_5.setGeometry(QtCore.QRect(210, 280, 141, 121))
+        self.pushButton_5.setStyleSheet("QPushButton{\n"
+"    border:1px solid #c7ccd4;\n"
+"}\n"
+"QPushButton:hover{\n"
+"    border:2px solid lightblue;\n"
+"}\n"
+"")
+        self.pushButton_5.setText("")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap(":/img2/Static/web-design-icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_5.setIcon(icon4)
+        self.pushButton_5.setIconSize(QtCore.QSize(100, 90))
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.label_5 = QtWidgets.QLabel(self.tab_1)
+        self.label_5.setGeometry(QtCore.QRect(220, 420, 111, 20))
         self.label_5.setObjectName("label_5")
+        self.buttonBox = QtWidgets.QDialogButtonBox(self.tab_1)
+        self.buttonBox.setGeometry(QtCore.QRect(460, 680, 156, 26))
+        self.buttonBox.setCenterButtons(True)
+        self.buttonBox.setObjectName("buttonBox")
+        self.pushButton_6 = QtWidgets.QPushButton(self.tab_1)
+        self.pushButton_6.setGeometry(QtCore.QRect(540, 690, 81, 26))
+        self.pushButton_6.setStyleSheet("QPushButton{\n"
+"background:blue;\n"
+"color:white;\n"
+"font:14px bold white;\n"
+"}")
+        self.pushButton_6.setObjectName("pushButton_6")
+        self.pushButton_7 = QtWidgets.QPushButton(self.tab_1)
+        self.pushButton_7.setGeometry(QtCore.QRect(430, 690, 81, 26))
+        self.pushButton_7.setStyleSheet("QPushButton{\n"
+"background:white;\n"
+"color:black;\n"
+"font:14px bold black;\n"
+"}")
+        self.pushButton_7.setObjectName("pushButton_7")
+        self.pushButton_8 = QtWidgets.QPushButton(self.tab_1)
+        self.pushButton_8.setGeometry(QtCore.QRect(20, 690, 201, 26))
+        self.pushButton_8.setObjectName("pushButton_8")
+        self.tabWidget.addTab(self.tab_1, "")
+        self.tab_2 = QtWidgets.QWidget()
+        self.tab_2.setObjectName("tab_2")
+        self.tabWidget.addTab(self.tab_2, "")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label_2.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:18pt;\">Welcome to Sketch</span></p></body></html>"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.elments1), _translate("MainWindow", "Recents"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.Templates2), _translate("MainWindow", "Templates"))
         self.label_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">New document</span></p></body></html>"))
         self.label_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Android Icon Design</span></p></body></html>"))
         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">IOS App icon</span></p></body></html>"))
         self.label_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Material Design</span></p></body></html>"))
         self.label_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Web Design</span></p></body></html>"))
+        self.pushButton_6.setText(_translate("MainWindow", "Choose"))
+        self.pushButton_7.setText(_translate("MainWindow", "Cancel"))
+        self.pushButton_8.setText(_translate("MainWindow", "Open an existing file... "))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_1), _translate("MainWindow", "Recents"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Templates"))
+import ressources_rc
 
 
 if __name__ == "__main__":

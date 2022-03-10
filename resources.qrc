@@ -2,16 +2,4 @@
   <qresource prefix="images">
     <file>Static/screen.png</file>
   </qresource>
-  <qresource prefix="images4">
-    <file>Static/fnJon5rf-removebg-preview.png</file>
-    <file>Static/fef6bf3f4260203e457b2be54a0ec894.jpeg</file>
-    <file>Static/ios-gallery-icon-3-removebg-preview.png</file>
-    <file>Static/ojo.png</file>
-    <file>Static/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</file>
-    <file>Static/833453.png</file>
-    <file>Static/110254-orange-wave-free-download-png-hd.png</file>
-    <file>Static/518494-abstrait-bleu-courbe-sombre-002-vectoriel-removebg-preview.png</file>
-    <file>Static/117-1172644_category-comments-four-square-icon-png-clipart-removebg-preview.png</file>
-    <file>Static/shortcuts-2018-10-03.png</file>
-  </qresource>
 </RCC>

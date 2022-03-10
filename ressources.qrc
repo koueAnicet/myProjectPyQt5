@@ -1,6 +1,22 @@
 <RCC>
-  <qresource prefix="imgs">
-    <file>Static/unnamed.png</file>
-    <file>Static/fleche.png</file>
+  <qresource prefix="img1"/>
+  <qresource prefix="img2">
+    <file>Static/images_android-removebg-preview.png</file>
+    <file>Static/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png</file>
+    <file>Static/layers-icon-13-removebg-preview.png</file>
+    <file>Static/web-design-icon.png</file>
+    <file>Static/images-removebg-preview.png</file>
+    <file>Static/images.png</file>
+  </qresource>
+  <qresource prefix="img3"/>
+  <qresource prefix="img4">
+    <file>Static/117-1172644_category-comments-four-square-icon-png-clipart-removebg-preview.png</file>
+    <file>Static/110254-orange-wave-free-download-png-hd.png</file>
+    <file>Static/518494-abstrait-bleu-courbe-sombre-002-vectoriel-removebg-preview.png</file>
+    <file>Static/fnJon5rf-removebg-preview.png</file>
+    <file>Static/ojo.png</file>
+    <file>Static/833453.png</file>
+    <file>Static/shortcuts-2018-10-03.png</file>
+    <file>Static/thumb2-blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves-removebg-preview.png</file>
   </qresource>
 </RCC>
